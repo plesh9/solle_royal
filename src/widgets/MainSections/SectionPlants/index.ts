@@ -1,1 +1,0 @@
-export { SectionPlants } from './ui';

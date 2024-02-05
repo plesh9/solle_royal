@@ -1,0 +1,1 @@
+export { SectionIngredients } from './ui';

@@ -6,11 +6,9 @@ import {
   SectionPreview,
   SectionMain,
   SectionKey,
-
-  SectionCoaster,
-  SectionMinerals,
-  SectionPlants,
-
+  SectionChart,
+  SectionResults,
+  SectionIngredients,
   SectionComments,
   SectionMixing,
   SectionSeo,
@@ -25,11 +23,9 @@ export default Vue.extend({
     SectionPreview,
     SectionMain,
     SectionKey,
-
-    SectionCoaster,
-    SectionMinerals,
-    SectionPlants,
-
+    SectionChart,
+    SectionResults,
+    SectionIngredients,
     SectionComments,
     SectionMixing,
     SectionSeo,
@@ -47,13 +43,11 @@ export default Vue.extend({
     <v-main>
       <SectionPreview />
       <SectionMain />
-      <div class="app__wrapper"> 
+      <div class="app__wrapper">
         <SectionKey />
-        
-        <SectionCoaster />
-        <SectionMinerals />
-        <SectionPlants />
-
+        <SectionChart />
+        <SectionResults />
+        <SectionIngredients />
         <SectionComments />
         <SectionMixing />
         <SectionSeo />
